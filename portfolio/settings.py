@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'portfolio.apps.PortfolioConfig',
     'django_filters',
+    'gunicorn',
+    'django-heroku',
     'corsheaders'
 ]
 
